@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0.75rem auto;
+  height: 4rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: center;
+  background-color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,103 @@
+* {
+  font-family: "Poppins";
+}
+.navbar {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar-list {
+  margin-left: -25rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.listItem {
+  margin: 0 1rem;
+}
+.btn {
+  margin: 0 1rem;
+  border: none;
+  background: none;
+}
+.signup {
+  width: 7rem;
+  height: 2rem;
+  background: hsl(180, 66%, 49%);
+  opacity: 0.7;
+  border-radius: 40px;
+  transition: 200ms ease-in-out;
+}
+.signup > a {
+  color: white;
+}
+.signup:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 150ms ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: hsl(257, 7%, 63%);
+  font-weight: 700;
+}
+.link {
+  transition: 200ms ease-in-out;
+}
+.link:hover {
+  color: hsl(257, 27%, 26%);
+  transition: 200ms ease-in-out;
+}
+.login > a:hover {
+  color: hsl(257, 27%, 26%);
+  transition: 200ms ease-in-out;
+}
+.main_landingPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 3rem auto;
+  overflow: hidden;
+}
+.illustration {
+  margin-right: -5rem;
+}
+.maintext {
+  text-align: left;
+  margin-left: 10%;
+  align-self: center;
+}
+h1 {
+  font-size: 5rem;
+  line-height: 6rem;
+  color: hsl(260, 8%, 14%);
+}
+.paratext {
+  margin-top: -3rem;
+  width: 80%;
+  font-size: 1.5rem;
+  color: hsl(257, 7%, 63%);
+}
+.btnGet {
+  background-color: hsl(180, 66%, 49%);
+  opacity: 0.7;
+  border: none;
+  border-radius: 40px;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: ease-in-out;
+}
+.btnGet:hover {
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.02);
+  transition: 150ms ease-in-out;
+}
